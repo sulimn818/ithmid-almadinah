@@ -15,7 +15,11 @@
 <meta property="og:type" content="product">
 <meta property="og:title" content="كحل الإثمد الأصلي من المدينة المنورة | كحل اثمد طبيعي 100%">
 <meta property="og:description" content="كحل الإثمد الأصلي — طبيعي 100% للعيون والرموش من السنة النبوية. اطلبه الآن مع مكحلة هدية.">
+<meta property="og:image" content="https://sulimn818.github.io/ithmid-almadinah/box-cream.jpg">
+<meta property="og:url" content="https://sulimn818.github.io/ithmid-almadinah/">
 <meta property="og:locale" content="ar_SA">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="image_src" href="https://sulimn818.github.io/ithmid-almadinah/box-cream.jpg">
 
 <!-- ===== Schema: منتج + تقييم ===== -->
 <script type="application/ld+json">
@@ -24,7 +28,8 @@
   "@type": "Product",
   "name": "كحل الإثمد الأصلي من المدينة المنورة",
   "description": "كحل إثمد أصلي طبيعي 100%، مسحوق معدني نقي من حجر الإثمد، للعيون والرموش، أسود ناعم غير متكتل، من السنة النبوية والطب النبوي.",
-  "brand": { "@type": "Brand", "name": "المدينة المنورة" },
+  "image": "https://sulimn818.github.io/ithmid-almadinah/box-cream.jpg",
+  "brand": { "@type": "Brand", "name": "House of Athmid" },
   "category": "كحل / مستحضرات العناية بالعين",
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -145,10 +150,9 @@
     box-shadow:0 30px 60px rgba(20,17,15,.35);
     border:1px solid #33291d;
   }
-  .product-card .stone{
-    width:150px;height:150px;margin:6px auto 22px;border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #6a635b, #14110f 70%);
-    box-shadow:inset 0 0 30px rgba(0,0,0,.6), 0 0 0 10px rgba(176,141,67,.12);
+  .product-card .hero-img{
+    width:100%;height:auto;display:block;border-radius:16px;margin:0 auto 22px;
+    box-shadow:0 12px 30px rgba(0,0,0,.4);
   }
   .product-card h3{color:#fff;font-size:1.5rem;text-align:center;margin-bottom:6px}
   .product-card .sub{text-align:center;color:#c9bfa9;font-size:.98rem;margin-bottom:22px}
@@ -170,6 +174,18 @@
   .feature .ic{width:48px;height:48px;border-radius:12px;background:var(--sand);display:grid;place-items:center;margin-bottom:16px;font-size:1.5rem}
   .feature h3{font-size:1.25rem;margin-bottom:8px}
   .feature p{color:var(--muted)}
+
+  /* معرض الصور */
+  .gallery{background:var(--sand)}
+  .gal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  @media(max-width:900px){.gal-grid{grid-template-columns:repeat(2,1fr)}}
+  .gal-item{position:relative;border-radius:var(--radius);overflow:hidden;background:#fff;border:1px solid var(--line);
+    box-shadow:0 8px 22px rgba(20,17,15,.06);transition:transform .25s}
+  .gal-item:hover{transform:translateY(-4px)}
+  .gal-item img{width:100%;height:260px;object-fit:cover;display:block}
+  .gal-item .cap{position:absolute;bottom:0;inset-inline:0;padding:10px 14px;font-weight:700;font-size:.95rem;color:#fff;
+    background:linear-gradient(0deg,rgba(20,17,15,.8),transparent)}
+  .feat-img{width:100%;height:190px;object-fit:cover;border-radius:12px;margin-bottom:16px;border:1px solid var(--line)}
 
   /* الأصلي مقابل المقلد */
   .compare{background:var(--ink);color:var(--sand)}
@@ -214,6 +230,7 @@
     <div class="logo">إثمد <span>المدينة</span></div>
     <nav class="nav-links">
       <a href="#features">المميزات</a>
+      <a href="#gallery">المعرض</a>
       <a href="#compare">الأصلي والمقلد</a>
       <a href="#faq">أسئلة شائعة</a>
     </nav>
@@ -240,7 +257,7 @@
     </div>
     <div class="product-card">
       <span class="badge-natural">طبيعي 100%</span>
-      <div class="stone" role="img" aria-label="حجر الإثمد الطبيعي"></div>
+      <img class="hero-img" src="box-cream.jpg" width="1200" height="896" alt="علبة كحل الإثمد الأصلي من المدينة المنورة مع قارورة ومكحلة نحاسية">
       <h3>إثمد أصلي — المدينة المنورة</h3>
       <p class="sub">مطحون من حجر الإثمد النقي · قوام ناعم عديم الرائحة</p>
       <p class="price-tag">✦ متوفّر الآن على أمازون السعودية ✦</p>
@@ -291,6 +308,35 @@
   </div>
 </section>
 
+<!-- معرض المنتج -->
+<section id="gallery" class="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">معرض المنتج</span>
+      <h2>حرفية تُلمس في كل تفصيلة</h2>
+      <p>من حجر الإثمد الخام إلى العلبة الفاخرة الجاهزة للإهداء.</p>
+    </div>
+    <div class="gal-grid">
+      <div class="gal-item">
+        <img src="box-luxury.jpg" width="1000" height="1777" alt="علبة كحل الإثمد الخشبية الفاخرة مع المكحلة النحاسية">
+        <span class="cap">علبة فاخرة للإهداء</span>
+      </div>
+      <div class="gal-item">
+        <img src="product-bottle.jpg" width="1000" height="1000" alt="قارورة كحل الإثمد الأصلي بغطاء ذهبي">
+        <span class="cap">قارورة الإثمد الأصلي</span>
+      </div>
+      <div class="gal-item">
+        <img src="raw-stone.jpg" width="900" height="900" alt="حجر الإثمد الخام الطبيعي قبل الطحن">
+        <span class="cap">حجر الإثمد الخام</span>
+      </div>
+      <div class="gal-item">
+        <img src="box-duo.jpg" width="1200" height="896" alt="علبتا كحل الإثمد بلونين كريمي وكحلي">
+        <span class="cap">تشكيلة العلب</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- الأصلي مقابل المقلد -->
 <section id="compare" class="compare">
   <div class="wrap">
@@ -318,57 +364,4 @@
           <li>رائحة كيميائية واضحة</li>
           <li>مضاف له مواد صناعية</li>
           <li>قد يسبّب حكة أو تهيجاً</li>
-        </ul>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:34px">
-      <a class="btn" style="background:var(--gold);border-color:var(--gold);color:#14110f" href="https://www.amazon.sa/dp/B0GK9G4D2H" target="_blank" rel="noopener">اطلب الأصلي الآن</a>
-    </div>
-  </div>
-</section>
-
-<!-- الأسئلة الشائعة -->
-<section id="faq">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="kicker">أسئلة شائعة</span>
-      <h2>كل ما تريد معرفته</h2>
-    </div>
-    <div class="faq">
-      <details open>
-        <summary>كيف أعرف كحل الإثمد الأصلي من المقلد؟</summary>
-        <p>الكحل الأصلي أسود داكن أو فضي اللون، قوامه ناعم غير متكتل، وخالٍ تماماً من أي رائحة كيميائية. المقلد غالباً خشن أو له رائحة صناعية.</p>
-      </details>
-      <details>
-        <summary>هل كحل الإثمد مناسب للرجال والأطفال؟</summary>
-        <p>نعم، كحل الإثمد يُستخدم للرجال والنساء والأطفال، وهو معروف في السنة النبوية للعناية بجمال العين.</p>
-      </details>
-      <details>
-        <summary>هل المنتج طبيعي 100%؟</summary>
-        <p>نعم، مسحوق معدني نقي مطحون من حجر الإثمد الطبيعي، خالٍ من الإضافات والمواد الكيميائية.</p>
-      </details>
-      <details>
-        <summary>كيف أطلب المنتج؟</summary>
-        <p>اضغط على زر «اطلب من أمازون» في الأعلى أو الأسفل، وستنتقل مباشرة إلى صفحة المنتج على أمازون السعودية لإتمام الطلب.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- CTA نهائي -->
-<section class="final">
-  <div class="wrap">
-    <h2>احصل على إثمدك الأصلي اليوم</h2>
-    <p>كحل الإثمد الأصلي من المدينة المنورة — مع مكحلة هدية وشحن أمازون السريع.</p>
-    <a class="btn" href="https://www.amazon.sa/dp/B0GK9G4D2H" target="_blank" rel="noopener">🛒 اطلبه الآن من أمازون</a>
-  </div>
-</section>
-
-<footer>
-  <div class="logo">إثمد المدينة</div>
-  <p>كحل الإثمد الأصلي من المدينة المنورة — طبيعي 100% من السنة النبوية.</p>
-  <p style="margin-top:8px">متوفّر حصرياً على <a href="https://www.amazon.sa/dp/B0GK9G4D2H" target="_blank" rel="noopener">أمازون السعودية</a></p>
-</footer>
-
-</body>
-</html>
+       
