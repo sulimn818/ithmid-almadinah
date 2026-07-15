@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sulimn818.github.io/ithmid-almadinah/sitemap.xml
